@@ -42,27 +42,27 @@
 
 📂 Project Structure
 
-image-caption-generator/
-│
-├── dataset/
-│   ├── images/
-│   │   ├── Flickr8k_Dataset/
-│   │   └── images_300/
-│   │
-│   └── Text/
-│       └── Flickr8k_text/
-│
-├── preprocess.py          # Text preprocessing
-├── features.py            # Image feature extraction
-├── train.py               # Model training
-├── model.py               # CNN + Transformer model
-├── inference.py           # Caption generation (prediction)
-├── image_filter.py        # Dataset filtering utilities
-├── dataset_checking.py    # Dataset validation
-│
-├── image_features.npy     # Pre-extracted image features
-├── caption_model.keras    # Trained model
-└── README.md
+    image-caption-generator/
+    │
+    ├── dataset/
+    │   ├── images/
+    │   │   ├── Flickr8k_Dataset/
+    │   │   └── images_300/
+    │   │
+    │   └── Text/
+    │       └── Flickr8k_text/
+    │
+    ├── preprocess.py          # Text preprocessing
+    ├── features.py            # Image feature extraction
+    ├── train.py               # Model training
+    ├── model.py               # CNN + Transformer model
+    ├── inference.py           # Caption generation (prediction)
+    ├── image_filter.py        # Dataset filtering utilities
+    ├── dataset_checking.py    # Dataset validation
+    │
+    ├── image_features.npy     # Pre-extracted image features
+    ├── caption_model.keras    # Trained model
+    └── README.md
 
 
 📊 Dataset
