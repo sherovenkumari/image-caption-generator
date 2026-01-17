@@ -1,5 +1,12 @@
+# virtual environment
 venv/
+
+# python cache
 __pycache__/
-*.h5
-*.pkl
-features.pkl
+*.pyc
+
+
+
+# large files
+image_features.npy
+caption_model.keras
