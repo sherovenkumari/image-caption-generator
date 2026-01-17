@@ -46,8 +46,9 @@ image-caption-generator/
 │
 ├── dataset/
 │   ├── images/
-│   │   ├── Flicker8k_Dataset/
+│   │   ├── Flickr8k_Dataset/
 │   │   └── images_300/
+│   │
 │   └── Text/
 │       └── Flickr8k_text/
 │
@@ -61,8 +62,8 @@ image-caption-generator/
 │
 ├── image_features.npy     # Pre-extracted image features
 ├── caption_model.keras    # Trained model
-│
 └── README.md
+
 
 📊 Dataset
 
